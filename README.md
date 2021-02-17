@@ -9,6 +9,8 @@ Easy-peasy parse-dashboard-compatible queue for parse-server with mongodb.
 
 ## Usage 
 
+Just edit `index.js` :)
+
 ```
 $ docker build . -t worker && docker run (...) worker
 ```
