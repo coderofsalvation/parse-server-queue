@@ -10,6 +10,12 @@ Easy-peasy parse-dashboard-compatible queue for parse-server with mongodb.
 ## Usage 
 
 ```
+$ docker build . -t worker && docker run (...) worker
+```
+
+or locally:
+
+```
 $ git clone https://github.com/coderofsalvation/parse-server-queue
 $ cd parse-server-queue
 $ npm install 
